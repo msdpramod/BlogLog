@@ -35,7 +35,10 @@ import com.codewithdurgesh.blog.services.UserService;
 @RestController
 @RequestMapping("/api/v1/auth/")
 public class AuthController {
-
+	//hi pramod
+	//hi durgesh
+	@Autowired
+	private ModelMapper modelMapper;
 	@Autowired
 	private JwtTokenHelper jwtTokenHelper;
 

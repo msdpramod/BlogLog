@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class pramod {
+public class pramod {
+    private String name;
 }
